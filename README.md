@@ -1,4 +1,3 @@
-<img width="630" height="459" alt="image" src="https://github.com/user-attachments/assets/812de304-c540-41a9-abff-4da26d2dc280" /># EXPERIMENT--01-ALP-FOR-8086
 # Name : JAYASREE R
 # Roll no : 212223230087
 # Date of experiment :
@@ -61,7 +60,7 @@ SUB AL,BL
 hlt
 ```
 ## Output  
-
+<img width="630" height="459" alt="image" src="https://github.com/user-attachments/assets/812de304-c540-41a9-abff-4da26d2dc280" /># EXPERIMENT--01-ALP-FOR-8086
 
 ## Multiplication alp 
 ```
