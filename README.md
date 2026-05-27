@@ -1,11 +1,7 @@
-# EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
-
-
-
-
+<img width="630" height="459" alt="image" src="https://github.com/user-attachments/assets/812de304-c540-41a9-abff-4da26d2dc280" /># EXPERIMENT--01-ALP-FOR-8086
+# Name : JAYASREE R
+# Roll no : 212223230087
+# Date of experiment :
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
@@ -29,73 +25,108 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 7.	After running the program, another menu screen will be displayed, where you have the option to “View” symbol table,
 8.	 
 
-
 ![image](https://user-images.githubusercontent.com/36288975/189273263-d65baae9-4b8f-4723-afb3-c0ffa4052b04.png)
-
-
-
-
-
-
-
-
-
-
 
 9.	Click on emulate to start emulation 
 
-
-
-
-
-
-
-
-![image](https://user-images.githubusercontent.com/36288975/189273273-9bb36ec1-e2e8-4892-8d35-37707332bfdc.png)
-
-
-
-
-
-
-
+<img width="630" height="459" alt="image" src="https://github.com/user-attachments/assets/108ab1e9-6fb4-45a2-b960-49255bbc77ad" />
 
 10.	If no errors are found click on run the program and check the status of various flags in the flags tab as shown below 
 
-
-
-
-
-
 ![image](https://user-images.githubusercontent.com/36288975/189273277-113a2a33-4a40-4ff8-95a5-ecd3a1f504fe.png)
-
-
-
-
-
-
 
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
-
+```
+org 100h
+MOV AL,0BH
+MOV BL,05H
+ADD AL,BL
+hlt
+```
 
 
 ## Output  
- 
+
+ <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/47ae00ee-eb6b-45ef-b57f-3372503bbd68" />
+
+
 ## Subtraction   of 8 bit numbers  ALP 
- 
+ ```
+org 100h
+MOV AL,0BH
+MOV BL,05H
+SUB AL,BL 
+hlt
+```
 ## Output  
-## Multiplication alp 
- ## Output  
 
+
+## Multiplication alp 
+```
+org 100h
+MOV AL, 0BH
+MOV BL, 05H
+MUL BL
+hlt
+```
+ ## Output  
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a30854dc-ce64-4e16-a35f-9857af988282" />
 
 ## Division alp 
-
+```
+org 100h
+MOV AL, 0BH
+MOV BL, 05H
+DIV BL
+hlt
+```
 ## Output  
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ea80adca-610c-40c0-834f-af5596264181" />
+
+## AND operation of 8 bit numbers ALP
+```
+mov AX,12H
+mov BX,34H
+and AX,BX
+HLT
+```
+## Output
+<img width="1590" height="799" alt="image" src="https://github.com/user-attachments/assets/dabd15a2-640a-4a44-a75c-a629b0cd8886" />
+
+## OR of 16 bit numbers ALP
+```
+MOV AX,6745H
+MOV BX,234FH
+OR AX,BX
+HLT
+```
+## Output
+<img width="1605" height="838" alt="image" src="https://github.com/user-attachments/assets/ba7547e3-3927-4472-b9af-4aac1b87a956" />
+
+## NOT of 16 bit numbers ALP
+```
+MOV AX,276DH
+NOT AX
+HLT
+```
+## Output
+<img width="1642" height="884" alt="image" src="https://github.com/user-attachments/assets/1b4a37f2-9f38-42a2-ac39-ee1660dcb88d" />
+
+## XOR of 16 bit numbers ALP
+```
+MOV AX,7722H
+MOV BX,9754H
+XOR AX,BX
+HLT
+```
+## Output
+<img width="1642" height="884" alt="image" src="https://github.com/user-attachments/assets/862b9b47-f926-434e-83d2-6bd514372830" />
 
 
 ## Result :
+The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
  
 
 
